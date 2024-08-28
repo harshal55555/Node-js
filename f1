@@ -1,0 +1,35 @@
+react-container  | 
+react-container  | > react-app@0.0.0 dev
+react-container  | > vite
+react-container  | 
+react-container  | /react-app/node_modules/rollup/dist/native.js:59
+react-container  | throw new Error(
+react-container  |       ^
+react-container  | 
+react-container  | Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+react-container  |     at requireWithFriendlyError (/react-app/node_modules/rollup/dist/native.js:59:9)
+react-container  |     at Object.<anonymous> (/react-app/node_modules/rollup/dist/native.js:68:76)
+react-container  |     ... 3 lines matching cause stack trace ...
+react-container  |     at Module._load (node:internal/modules/cjs/loader:1019:12)
+react-container  |     at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:203:29)
+react-container  |     at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+react-container  |     at async ModuleLoader.import (node:internal/modules/esm/loader:337:24) {
+react-container  |   [cause]: Error: Cannot find module '@rollup/rollup-linux-x64-gnu'
+react-container  |   Require stack:
+react-container  |   - /react-app/node_modules/rollup/dist/native.js
+react-container  |       at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+react-container  |       at Module._load (node:internal/modules/cjs/loader:981:27)
+react-container  |       at Module.require (node:internal/modules/cjs/loader:1231:19)
+react-container  |       at require (node:internal/modules/helpers:177:18)
+react-container  |       at requireWithFriendlyError (/react-app/node_modules/rollup/dist/native.js:41:10)
+react-container  |       at Object.<anonymous> (/react-app/node_modules/rollup/dist/native.js:68:76)
+react-container  |       at Module._compile (node:internal/modules/cjs/loader:1364:14)
+react-container  |       at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+react-container  |       at Module.load (node:internal/modules/cjs/loader:1203:32)
+react-container  |       at Module._load (node:internal/modules/cjs/loader:1019:12) {
+react-container  |     code: 'MODULE_NOT_FOUND',
+react-container  |     requireStack: [ '/react-app/node_modules/rollup/dist/native.js' ]
+react-container  |   }
+react-container  | }
+react-container  | 
+react-container  | Node.js v18.20.4

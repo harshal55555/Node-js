@@ -1,0 +1,8 @@
+node_modules
+*.md 
+logs/
+.git
+.gitignore
+.cache
+npm-debug.log
+f1

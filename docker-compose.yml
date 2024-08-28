@@ -1,0 +1,15 @@
+services:
+  react-project-app:
+    container_name: "react-container"
+    image: react-project-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/react-project
+      - /react-project/node_modules
+    command: npm run dev
+
+
